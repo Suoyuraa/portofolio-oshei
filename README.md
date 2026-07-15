@@ -16,7 +16,8 @@ git clone https://github.com/Suoyuraa/portofolio-oshei.git
 Masuk ke folder project:
 
 ```bash
-cd belajar-next
+cd portofolio-oshei
+
 ```
 
 Install dependency:
