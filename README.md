@@ -1,61 +1,85 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🌐 Portofolio Oshei
 
-## Getting Started
+Website portofolio pribadi yang dibuat menggunakan **Next.js** untuk menampilkan profil, pengalaman, proyek, serta keterampilan yang saya miliki sebagai seorang **Frontend Developer**.
 
-First, run the development server:
-
-```bash
 ## 🚀 Cara Menjalankan Project
 
-Clone repository:
+Ikuti langkah-langkah berikut untuk menjalankan project di komputer lokal.
+
+### 1. Clone Repository
 
 ```bash
 git clone https://github.com/Suoyuraa/portofolio-oshei.git
 ```
 
-Masuk ke folder project:
+### 2. Masuk ke Folder Project
 
 ```bash
 cd portofolio-oshei
-
 ```
 
-Install dependency:
+### 3. Install Dependency
 
 ```bash
 npm install
 ```
 
-Jalankan development server:
+### 4. Jalankan Development Server
 
 ```bash
 npm run dev
 ```
 
-Buka browser:
+### 5. Buka di Browser
+
+Setelah server berhasil dijalankan, buka browser dan akses:
 
 ```text
 http://localhost:3000
 ```
+
+Selamat! 🎉 Sekarang website sudah berjalan di komputer kamu dan siap untuk dikembangkan.
+
+---
+
+## 🛠️ Teknologi yang Digunakan
+
+* Next.js
+* React
+* TypeScript
+* Tailwind CSS
+
+---
+
+## 📁 Struktur Project
+
+Semua halaman utama berada di folder:
+
+```text
+app/
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Kamu dapat mulai mengedit halaman utama melalui file:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```text
+app/page.tsx
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Perubahan yang kamu simpan akan langsung diperbarui secara otomatis (Hot Reload) saat development server masih berjalan.
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## 📚 Pelajari Lebih Lanjut
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Jika ingin mempelajari lebih dalam mengenai Next.js, kamu bisa mengunjungi dokumentasi berikut:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+* 📖 https://nextjs.org/docs
+* 🎓 https://nextjs.org/learn
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🚀 Deploy
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Website ini dapat dengan mudah di-deploy menggunakan **Vercel** maupun platform hosting lainnya yang mendukung Next.js.
+
+Selamat mencoba dan semoga project ini bermanfaat! ✨

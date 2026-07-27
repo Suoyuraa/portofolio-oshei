@@ -28,12 +28,20 @@ a {
   text-decoration: none;
 }
 
+<<<<<<< HEAD
+=======
+/* --- Layout Wrapper --- */
+>>>>>>> e7fbed272133d8ce80bbcae79322d49a39ad42c2
 .wrap {
   width: min(1160px, calc(100% - 64px));
   margin-inline: auto;
 }
 
+<<<<<<< HEAD
 /* Navigation */
+=======
+/* --- Navigation --- */
+>>>>>>> e7fbed272133d8ce80bbcae79322d49a39ad42c2
 .nav {
   height: 94px;
   display: flex;
@@ -78,7 +86,11 @@ a {
   margin-left: 4px;
 }
 
+<<<<<<< HEAD
 /* Typography & Headings */
+=======
+/* --- Typography & Elements --- */
+>>>>>>> e7fbed272133d8ce80bbcae79322d49a39ad42c2
 .kicker {
   margin: 0;
   font-size: 10px;
@@ -96,9 +108,15 @@ a {
   margin-right: 9px;
 }
 
+<<<<<<< HEAD
 .hero h1,
 .profile h1,
 .portfolio h1,
+=======
+.hero h1, 
+.profile h1, 
+.portfolio h1, 
+>>>>>>> e7fbed272133d8ce80bbcae79322d49a39ad42c2
 .contact h1 {
   margin: 26px 0 0;
   font-size: clamp(53px, 6.5vw, 88px);
@@ -107,8 +125,13 @@ a {
   font-weight: 800;
 }
 
+<<<<<<< HEAD
 .hero h1 em,
 .profile h1 em,
+=======
+.hero h1 em, 
+.profile h1 em, 
+>>>>>>> e7fbed272133d8ce80bbcae79322d49a39ad42c2
 .contact h1 em {
   font-family: Georgia, serif;
   font-weight: 400;
@@ -130,7 +153,11 @@ a {
   font-size: 19px;
 }
 
+<<<<<<< HEAD
 /* Hero Section */
+=======
+/* --- Hero Section --- */
+>>>>>>> e7fbed272133d8ce80bbcae79322d49a39ad42c2
 .hero {
   min-height: 665px;
   display: grid;
@@ -213,7 +240,11 @@ a {
   font-style: italic;
 }
 
+<<<<<<< HEAD
 /* Intro Band */
+=======
+/* --- Intro Band --- */
+>>>>>>> e7fbed272133d8ce80bbcae79322d49a39ad42c2
 .intro-band {
   background: var(--ink);
   color: var(--paper);
@@ -222,7 +253,11 @@ a {
 
 .intro-band > div {
   display: grid;
+<<<<<<< HEAD
   grid-template-columns: 1.2fr .8fr;
+=======
+  grid-template-columns: 1.2fr 0.8fr;
+>>>>>>> e7fbed272133d8ce80bbcae79322d49a39ad42c2
   gap: 90px;
   align-items: end;
 }
@@ -244,28 +279,52 @@ a {
   text-transform: uppercase;
 }
 
+<<<<<<< HEAD
 /* Profile Section */
 .profile {
   padding: 80px 0 120px;
   display: grid;
   grid-template-columns: .85fr 1.15fr;
+=======
+/* --- Profile Section --- */
+.profile {
+  padding: 80px 0 120px;
+  display: grid;
+  grid-template-columns: 0.85fr 1.15fr;
+>>>>>>> e7fbed272133d8ce80bbcae79322d49a39ad42c2
   gap: 11%;
   align-items: center;
 }
 
 .profile-image {
   position: relative;
+<<<<<<< HEAD
   aspect-ratio: .8;
+=======
+  aspect-ratio: 0.8;
+>>>>>>> e7fbed272133d8ce80bbcae79322d49a39ad42c2
   background: #d4cabe;
   overflow: hidden;
 }
 
+<<<<<<< HEAD
 .profile-image img,
 .project-image img {
   object-fit: cover;
 }
 
 .profile-copy > p:not(.kicker),
+=======
+/* Perbaikan: Menambahkan ukuran penuh agar object-fit berfungsi sempurna */
+.profile-image img, 
+.project-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.profile-copy > p:not(.kicker), 
+>>>>>>> e7fbed272133d8ce80bbcae79322d49a39ad42c2
 .contact > div > p:not(.kicker) {
   max-width: 550px;
   font-size: 17px;
@@ -286,7 +345,11 @@ a {
   font-size: 12px;
 }
 
+<<<<<<< HEAD
 /* Portfolio Section */
+=======
+/* --- Portfolio Section --- */
+>>>>>>> e7fbed272133d8ce80bbcae79322d49a39ad42c2
 .portfolio {
   padding: 55px 0 110px;
 }
@@ -350,7 +413,11 @@ a {
   font-family: monospace;
 }
 
+<<<<<<< HEAD
 /* Contact Section */
+=======
+/* --- Contact Section --- */
+>>>>>>> e7fbed272133d8ce80bbcae79322d49a39ad42c2
 .contact {
   padding: 70px 0 120px;
   display: grid;
@@ -377,7 +444,11 @@ a {
   font-weight: bold;
 }
 
+<<<<<<< HEAD
 .contact input,
+=======
+.contact input, 
+>>>>>>> e7fbed272133d8ce80bbcae79322d49a39ad42c2
 .contact textarea {
   display: block;
   width: 100%;
@@ -409,7 +480,11 @@ a {
   font-size: 13px;
 }
 
+<<<<<<< HEAD
 /* Responsive Styles */
+=======
+/* --- Media Queries (Responsive) --- */
+>>>>>>> e7fbed272133d8ce80bbcae79322d49a39ad42c2
 @media (max-width: 720px) {
   .wrap {
     width: calc(100% - 36px);
@@ -475,7 +550,11 @@ a {
     gap: 35px;
   }
 
+<<<<<<< HEAD
   .profile,
+=======
+  .profile, 
+>>>>>>> e7fbed272133d8ce80bbcae79322d49a39ad42c2
   .contact {
     grid-template-columns: 1fr;
     gap: 45px;
@@ -496,8 +575,13 @@ a {
     margin-top: 45px;
   }
 
+<<<<<<< HEAD
   .contact h1,
   .profile h1,
+=======
+  .contact h1, 
+  .profile h1, 
+>>>>>>> e7fbed272133d8ce80bbcae79322d49a39ad42c2
   .portfolio h1 {
     font-size: 54px;
   }
