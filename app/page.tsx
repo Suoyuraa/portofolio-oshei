@@ -52,7 +52,7 @@ export default function Home() {
             untuk bekerja sama.
           </p>
           <div>
-            <Link href="/profile">Profile</Link>
+            <Link href="/profile">profil</Link>
             <Link href="/portofolio">Portofolio</Link>
             <Link href="/kontak">Kontak</Link>
           </div>

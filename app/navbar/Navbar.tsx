@@ -7,9 +7,9 @@ export default function Navbar() {
         portofolio<span>&reg;</span>
       </Link>
       <div className="nav-center">
-        <Link href="/profile">Profile</Link>
+        <Link href="/profile">profil</Link>
         <Link href="/portofolio">Portofolio</Link>
       </div>
     </nav>
   );
-}
+} 
