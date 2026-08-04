@@ -4,20 +4,13 @@ import { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import styles from "./portfolio.module.css";
-import { projects } from "./data";
+import { projects } from "./data"
+import Navbar from "../navbar/Navbar";
 
 export default function PortfolioPage() {
   return (
     <main>
-      <nav className="nav wrap" aria-label="Navigasi utama">
-        <Link className="logo" href="/">
-          portofolio<span>&reg;</span>
-        </Link>
-        <div className="nav-center">
-          <Link href="/profile">Profile</Link>
-          <Link href="/portofolio">Portofolio</Link>
-        </div>
-      </nav>
+      <Navbar/>
 
       <section className="portfolio wrap">
         <header>

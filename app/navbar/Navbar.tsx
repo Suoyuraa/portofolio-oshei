@@ -9,6 +9,7 @@ export default function Navbar() {
       <div className="nav-center">
         <Link href="/profile">profil</Link>
         <Link href="/portofolio">Portofolio</Link>
+        <Link href="/tamu">Tamu</Link>
       </div>
     </nav>
   );
