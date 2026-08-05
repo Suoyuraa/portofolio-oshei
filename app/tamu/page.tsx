@@ -5,13 +5,18 @@ import { useState } from "react";
 
 export default function BukuTamuPage() {
   const [pesan, setPesan] = useState("");
+  const [nama, setNama] = useState("");
   const [daftarPesan, setDaftarPesan] = useState<string[]>([]);
+  const [daftarNama, setDaftarNama] = useState<string[]>([]);
 
   const tambahPesan = () => {
     if (pesan.trim() === "") return;
 
     setDaftarPesan([...daftarPesan, pesan]);
     setPesan("");
+
+    setDaftarNama([...daftarNama, nama]);
+    setNama("");
   };
 
   return (
@@ -46,16 +51,25 @@ export default function BukuTamuPage() {
             </label>
 
             <textarea
+              rows={1}
+              value={nama}
+              onChange={(e) => setNama(e.target.value)}
+              placeholder="Tuliskan  Anda..."
+              className="mt-3 w-full resize-none border border-[#b8b4ae] bg-[#f5f2ec] p-4 outline-none transition focus:border-[#e2725b]"
+            />
+
+            <textarea
               rows={6}
               value={pesan}
               onChange={(e) => setPesan(e.target.value)}
               placeholder="Tuliskan pesan Anda..."
               className="mt-3 w-full resize-none border border-[#b8b4ae] bg-[#f5f2ec] p-4 outline-none transition focus:border-[#e2725b]"
             />
+          
 
             <button
               onClick={tambahPesan}
-              className="mt-6 w-full cursor-pointer bg-[#e2725b] px-5 py-4 font-bold transition hover:brightness-95"
+              className="mt-6 w-full rounded-sm cursor-pointer bg-[#e2725b] px-5 py-4 font-bold transition hover:brightness-95"
             >
               Kirim Pesan
             </button>
@@ -69,19 +83,19 @@ export default function BukuTamuPage() {
             </h2>
 
             {daftarPesan.length === 0 ? (
-              <div className="rounded border border-dashed border-[#b8b4ae] p-10 text-center text-neutral-500">
+              <div className="rounded-md border border-dashed border-[#b8b4ae] p-10 text-center text-neutral-500">
                 Belum ada pesan.
               </div>
             ) : (
-              <div className="space-y-5">
+              <div className="space-y-2">
 
                 {daftarPesan.map((item, index) => (
                   <div
                     key={index}
-                    className="border border-[#b8b4ae] bg-white p-5 shadow-sm"
+                    className="border rounded-md border-[#b8b4ae] bg-white p-5 shadow-sm"
                   >
-                    <p className="mb-2 text-xs font-bold uppercase tracking-[0.15em] text-[#e2725b]">
-                      Pengunjung #{index + 1}
+                    <p className="mb-1 text-xs font-bold uppercase tracking-[0.15em] text-[#e2725b]">
+                    {daftarNama[index]}
                     </p>
 
                     <p className="leading-relaxed">
