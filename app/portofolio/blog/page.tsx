@@ -72,7 +72,6 @@ export default async function HalamanBlog() {
                 Artikel #{artikel.id}
               </p>
 
-              {/* Judul artikel (title) dari properti API */}
               {/* Jadikan judul bisa diklik! */}
               <Link href={`/portofolio/blog/${artikel.id}`}>
                 <h3

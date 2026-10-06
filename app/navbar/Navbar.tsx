@@ -10,6 +10,7 @@ export default function Navbar() {
         <Link href="/profile">profil</Link>
         <Link href="/portofolio">Portofolio</Link>
         <Link href="/tamu">Tamu</Link>
+        <Link href="/portofolio/blog">Blog</Link>   {/* ← baris baru */}
       </div>
     </nav>
   );

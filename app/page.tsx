@@ -54,6 +54,7 @@ export default function Home() {
           <div>
             <Link href="/profile">profil</Link>
             <Link href="/portofolio">Portofolio</Link>
+            <Link href="/portofolio/blog">Blog</Link>   {/* ← baris baru */}
             <Link href="/kontak">Kontak</Link>
           </div>
         </div>
